@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+/* color */
+:root {
+  --primary-color: 956842;
+  --secondry-color: #473931;
+  --Fuji-color: #f1efe9;
+  --sandDagger-color: #e6ddd2;
+  --palladium-color: #b1b1b1;
+  --black-color: 000000;
+  --white-color: #ffffff;
+}
+.container {
+  max-width: 1472px;
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  padding: 15px 30px;
+  color: var(--black-color);
+  border-radius: 35px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: var(--white-color);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.sec-title {
+  font-size: 40px;
+  font-weight: 400;
+  color: var(--black-color);
+  /* line-height: 150%; */
+}
+/* topbar header section */
+.header_top {
+  background-color: var(--Fuji-color);
+  text-align: center;
+  padding-block: 11px;
+  margin-bottom: 11px;
+}
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 19px;
+}
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+.header-link {
+  color: var(--black-color);
+}
+
+/* hero section  */
+.hero {
+  margin-bottom: 73px;
+}
+.card_img {
+  position: relative;
+  width: 100%;
+}
+.card_img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.card_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  max-width: 779px;
+  width: 100%;
+}
+.card_content h3 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 44px;
+  color: var(--white-color);
+}
+.hero
+  .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 42px;
+}
+.hero span.swiper-pagination-bullet {
+  width: 7px;
+  height: 7px;
+  background-color: var(--white-color);
+  padding: 7px;
+  color: var(--white-color);
+}
+.hero span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  padding: 1rem;
+  border: 2px solid var(--white-color);
+  background: transparent;
+}
+/* shop section */
+.shop {
+  padding-bottom: 81px;
+}
+.shop_img {
+  margin-bottom: 30px;
+}
+.shop_img img {
+  max-width: 410px;
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+.shop_card p {
+  font-size: 25px;
+  font-weight: 400;
+  color: var(--black-color);
+  max-width: 320px;
+  width: 100%;
+  margin-inline: auto;
+  text-align: center;
+}
+/* fawless section */
+.fawless {
+  padding-block: 25px 30px;
+  background-color: var(--Fuji-color);
+}
+.fawless_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fawless_left {
+  max-width: 523px;
+  width: 100%;
+}
+.fawless_left h4 {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 18px;
+  color: var(--black-color);
+}
+.fawless_left p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 18px;
+  color: var(--black-color);
+}
+.btn_shop {
+  background-color: var(--Fuji-color);
+  border: 1px solid;
+  color: var(--black-color);
+  padding-inline: 36px 28px;
+}
+.fawless_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  max-width: 773.56px;
+  width: 100%;
+}
+.fawless_btm {
+  background-color: var(--white-color);
+  padding-block: 98px;
+}
+.fawless_content {
+  width: 100%;
+  max-width: 1030px;
+  margin-inline: auto;
+  text-align: center;
+}
+.fawless_content p {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.explore_service {
+  border: 1px solid;
+  padding: 15px 53px;
+}
+/* categories section */
+.categories {
+  padding-block: 89px 76px;
+  background-color: var(--white-color);
+}
+.categories_section h3 {
+  margin-bottom: 54px;
+  text-align: center;
+}
+.categories_inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 26px;
+  column-gap: 23px;
+  margin-bottom: 64px;
+}
+.categories_img img {
+  width: 100%;
+  max-width: 430.16px;
+  display: block;
+  object-fit: contain;
+}
+.categories_img {
+  position: relative;
+}
+.categories_card {
+  cursor: pointer;
+  position: relative;
+}
+.categories_card p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white-color);
+  display: none;
+  transition: all 0.3s ease-in-out;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.categories_card:hover p {
+  display: block;
+}
+
+.categories_viewBtn {
+  border: 1px solid;
+  padding: 15px 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+/* footer section */
+.footer {
+  background-color: var(--secondry-color);
+  padding-block: 77px 61px;
+}
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 89px;
+}
+.footer_link {
+  color: var(--white-color);
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.footer_form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px 17px 16px;
+}
+.footer_form input {
+  border: none;
+  outline: none;
+  background-color: var(--secondry-color);
+}
+.footer_form input::placeholder {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--white-color);
+}
+.footer-socials h4 {
+  margin-bottom: 17px;
+  font-size: 14px;
+  color: var(--white-color);
+  font-weight: 400;
+}
+.footer_right h4 {
+  color: var(--white-color);
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 21px;
+  text-transform: uppercase;
+}
+.footer_socialwrap {
+  display: flex;
+  gap: 25px;
+}
+.footer_btm p {
+  max-width: 553px;
+  width: 100%;
+  margin-inline: auto;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--white-color);
+  line-height: 150%;
+}
