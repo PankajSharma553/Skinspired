@@ -1,0 +1,66 @@
+/* Balgin font */
+@font-face {
+  font-family: "Balgin";
+  src: url("./Balgin/Demo_Fonts/Fontspring-DEMO-balgin-extralight.otf");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Balgin";
+  src: url("./Balgin/Demo_Fonts/Fontspring-DEMO-balgintext-regular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Balgin";
+  src: url("./Balgin/Demo_Fonts/Fontspring-DEMO-balgindisplay-medium.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Balgin";
+  src: url("./Balgin/Demo_Fonts/Fontspring-DEMO-balgindisplay-semibold.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Balgin";
+  src: url("./Balgin/Demo_Fonts/Fontspring-DEMO-balgintext-bold.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Balgin";
+  src: url("./Balgin/Demo_Fonts/Fontspring-DEMO-balgindisplay-extrabold.otf");
+  font-weight: 800;
+}
+/* Tanaegean font */
+
+@font-face {
+  font-family: "Tanaegean";
+  src: url("./tanaegean/tanaegean/TAN\ -\ AEGEAN\ Regular.ttf");
+  font-weight: 400;
+}
+/* Montserrat font */
+@font-face {
+  font-family: "Montserrat";
+  src: url("./Montserrat/static/Montserrat-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("./Montserrat/static/Montserrat-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("./Montserrat/static/Montserrat-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./Montserrat/static/Montserrat-ExtraBold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./Montserrat/static/Montserrat-ExtraBold.ttf");
+  font-weight: 800;
+}
