@@ -11,8 +11,11 @@
     <link rel="stylesheet" href="./assets/package-swiper/swiper-bundle.min.css">
     <!-- font link -->
     <link rel="stylesheet" href="./assets/fonts/fonts.css">
+
     <!-- css link -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- media css link -->
+    <link rel="stylesheet" href="./assets/css/media.css">
 </head>
 
 <body>
@@ -40,7 +43,7 @@
                         <a href="#" class="header-link">Acne Coaching </a>
                     </li>
                     <li class="header-item">
-                        <a href="#" class="header-link">Product Shop</a>
+                        <a href="#" class="header-link">product Shop</a>
                     </li>
                     <li class="header-item">
                         <a href="#" class="header-link"> All Services</a>
@@ -51,22 +54,34 @@
                     <li class="header-item">
                         <a href="#" class="header-link">BOOK CONTACT</a>
                     </li>
-                    <li>
-                        <form>
-                            <img src="./assets/images/search.svg">
-                        </form>
-                    </li>
-                    <li>
-                        <img src="./assets/images/shopping.svg">
+                    <div class="header_scialIcons">
+                        <li>
+                            <form>
+                                <a href=""> <img src="./assets/images/search.svg" class="form_search">
+                                </a>
+                            </form>
+                        </li>
+                        <li>
+                            <a href=""> <img src="./assets/images/shopping.svg">
+                            </a>
+                        </li>
+                    </div>
+                    <li class="close">
+                        <img src="./assets/images/close.png" alt="close">
+
                     </li>
                 </ul>
             </nav>
+            <div class="humburger">
+                <img src="./assets/images/hamburger.png" alt="humburger">
+            </div>
+
         </div>
     </header>
     <!-- hero section -->
     <section class="hero">
         <div class="hero_wrapper">
-            <div class="swiper mySwiper">
+            <div class="swiper heroSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="hero_card">
@@ -183,7 +198,7 @@
             <div class="fawless_left">
                 <h4>Flawless Beauty</h4>
                 <h3 class="sec-title">Tailored Skin Care 
-                    Products</h3>
+                    productts</h3>
                 <p>Cursus sit amet dictum sit amet. Cras adipiscing enim eu turpis egestas pretium aenean. </p>
                 <button class="btn btn_shop">Shop now</button>
             </div>
@@ -200,12 +215,21 @@
                                 <img src="./assets/images/fawless2.png" alt="fawless-img">
                             </div>
                         </div>
+                        <div class="swiper-slide">
+                            <div class="fawless_rightImg">
+                                <img src="./assets/images/fawless1.png" alt="fawless-img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="fawless_rightImg">
+                                <img src="./assets/images/fawless2.png" alt="fawless-img">
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-pagination"></div>
+                    <!-- <div class="swiper-pagination"></div> -->
                 </div>
             </div>
         </div>
-
         <div class="fawless_btm">
             <div class="fawless_content">
                 <p>Skinspired Acne Clinic takes a holistic approach with a 98% success rate for getting people’s skin
@@ -215,16 +239,15 @@
             </div>
         </div>
     </section>
-
     <!-- service section -->
     <section class="service">
-        <div class="service_section">
+        <div class="service_section container">
             <h4>world Class Cosmetics</h4>
             <h3 class="sec-title">Our Services</h3>
             <div class="service_inner">
                 <!-- Swiper -->
                 <div class="swiper serviceSwiper">
-                    <div class="swiper-wrapper">
+                    <div class="swiper-wrapper container">
                         <div class="swiper-slide">
                             <div class="service_card">
                                 <div class="service_img">
@@ -288,49 +311,49 @@
             </div>
         </div>
     </section>
-    <!-- categories section -->
-    <section class="categories">
-        <div class="categories_section container">
+    <!-- product section -->
+    <section class="product">
+        <div class="product_section container">
             <h3 class="sec-title">Product categories</h3>
-            <div class="categories_inner">
-                <div class="categories_card">
-                    <div class="categories_img">
-                        <img src="./assets/images/categories1.png" alt="categories_img">
+            <div class="product_inner">
+                <div class="product_card">
+                    <div class="product_img">
+                        <img src="./assets/images/categories1.png" alt="product_img">
                     </div>
                     <p>SPF</p>
                 </div>
-                <div class="categories_card">
-                    <div class="categories_img">
-                        <img src="./assets/images/catgories2.png" alt="categories_img">
+                <div class="product_card">
+                    <div class="product_img">
+                        <img src="./assets/images/catgories2.png" alt="product_img">
                     </div>
                     <p>supplements</p>
                 </div>
-                <div class="categories_card">
-                    <div class="categories_img">
-                        <img src="./assets/images/categories3.png" alt="categories_img">
+                <div class="product_card">
+                    <div class="product_img">
+                        <img src="./assets/images/categories3.png" alt="product_img">
                     </div>
                     <p>Masks</p>
                 </div>
-                <div class="categories_card">
-                    <div class="categories_img">
-                        <img src="./assets/images/catgories4.png" alt="categories_img">
+                <div class="product_card">
+                    <div class="product_img">
+                        <img src="./assets/images/catgories4.png" alt="product_img">
                     </div>
                     <p>Moisturizer</p>
                 </div>
-                <div class="categories_card">
-                    <div class="categories_img">
-                        <img src="./assets/images/categories5.png" alt="categories_img">
+                <div class="product_card">
+                    <div class="product_img">
+                        <img src="./assets/images/categories5.png" alt="product_img">
                     </div>
                     <p>Cleanser</p>
                 </div>
-                <div class="categories_card">
-                    <div class="categories_img">
-                        <img src="./assets/images/categories6.png" alt="categories_img">
+                <div class="product_card">
+                    <div class="product_img">
+                        <img src="./assets/images/categories6.png" alt="product_img">
                     </div>
                     <p>Toner</p>
                 </div>
             </div>
-            <button class="btn categories_viewBtn">view all</button>
+            <button class="btn product_viewBtn">view all</button>
         </div>
     </section>
     <!-- booking  section-->
@@ -425,11 +448,8 @@
                     </div>
                     <!-- <div class="swiper-pagination"></div> -->
                 </div>
-
             </div>
-
             <!-- Swiper -->
-
         </div>
     </section>
     <!-- banner section -->
@@ -511,7 +531,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="" class="footer_link">PRODUCTS</a>
+                        <a href="" class="footer_link">productTS</a>
                     </li>
                     <li>
                         <a href="" class="footer_link">CLIENTS ONLY SHOP</a>
@@ -584,14 +604,14 @@
     <!-- Swiper JS -->
     <script src="./assets/package-swiper/swiper-bundle.min.js"></script>
     <script>
-        var swiper = new Swiper(".mySwiper", {
+        var swiper = new Swiper(".heroSwiper", {
             slidesPerView: 1,
             spaceBetween: 30,
             keyboard: {
                 enabled: true,
             },
             autoplay: {
-                delay: 1500,
+                delay: 2000,
             },
             pagination: {
                 el: ".swiper-pagination",
@@ -622,17 +642,17 @@
                 // when window width is <= 499px
                 0: {
                     slidesPerView: 1,
-                    spaceBetweenSlides: 30
+                    spaceBetweenSlides: 0
+                },
+                480: {
+                    slidesPerView: 2,
+                    spaceBetweenSlides: 20
                 },
                 768: {
-                    slidesPerView: 2,
+                    slidesPerView: 3,
                     spaceBetweenSlides: 30
                 },
-                // when window width is <= 999px
-                999: {
-                    slidesPerView: 3,
-                    spaceBetweenSlides: 40
-                }
+
             }
         });
         var swiper = new Swiper(".fewlessSwiper", {
@@ -645,7 +665,9 @@
         });
         // <!-- service section scripting  -->
         var swiper = new Swiper(".serviceSwiper", {
-            slidesPerView: 4,
+            slidesPerView: 5.6,
+            //   slidesPerView: "auto",
+
             spaceBetween: 69,
             //   centeredSlides: true,
             pagination: {
@@ -653,7 +675,7 @@
                 clickable: true,
             },
             autoplay: {
-                delay: 2000,
+                delay: 20000000,
             },
         });
         //  brand company logo section
@@ -669,23 +691,32 @@
             autoplay: {
                 delay: 500,
             },
+            breakpoints: {
+                // when window width is <= 499px
+                0: {
+                    slidesPerView: 2,
+                    spaceBetweenSlides: 0
+                },
+                480: {
+                    slidesPerView: 3,
+                    spaceBetweenSlides: 20
+                },
+                768: {
+                    slidesPerView: 4,
+                    spaceBetweenSlides: 30
+                },
+                998: {
+                    slidesPerView: 5,
+                    spaceBetweenSlides: 71
+                },
+
+            }
         });
 
     </script>
 
-    <!-- Initialize Swiper -->
-    <!-- <script>
-    var swiper = new Swiper(".fewlessSwiper", {
-      slidesPerView: 2,
-      spaceBetween: 12,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-  </script> -->
-    <!-- Initialize Swiper -->
-
+    <!-- main js link -->
+    <script src="./assets/js/main.js"></script>
 </body>
 
 
