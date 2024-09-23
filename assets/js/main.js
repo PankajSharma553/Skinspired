@@ -19,23 +19,24 @@ var swiper = new Swiper(".heroSwiper", {
     enabled: true,
   },
   autoplay: {
-    delay: 2000000,
+    delay: 2000,
   },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
+
+  // navigation: {
+  //   nextEl: ".swiper-button-next",
+  //   prevEl: ".swiper-button-prev",
+  // },
 });
 // shop  section
 var swiper = new Swiper(".shopSwiper", {
   spaceBetween: 57,
   slidesPerView: 3,
   autoplay: {
-    delay: 250000000,
+    delay: 2500000,
     disableOnInteraction: false,
   },
   pagination: {
@@ -62,6 +63,7 @@ var swiper = new Swiper(".shopSwiper", {
     },
   },
 });
+
 // fewless section
 var swiper = new Swiper(".fewlessSwiper", {
   slidesPerView: 2,
@@ -69,6 +71,17 @@ var swiper = new Swiper(".fewlessSwiper", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
+  },
+  breakpoints: {
+    0: {
+      spaceBetween: 6,
+    },
+    480: {
+      spaceBetween: 8,
+    },
+    768: {
+      spaceBetween: 12,
+    },
   },
 });
 // <!-- service section scripting  -->

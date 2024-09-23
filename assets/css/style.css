@@ -42,6 +42,7 @@ a {
 
 img {
   width: 100%;
+  height: auto;
   object-fit: contain;
   display: block;
 }
@@ -69,7 +70,7 @@ img {
   border-color: transparent;
 }
 
-.sec-title {
+.sec-heading {
   font-size: 40px;
   font-weight: 400;
   color: var(--black-color);
@@ -163,12 +164,8 @@ img {
   position: relative;
   width: 100%;
 }
-
 .card_img img {
-  display: block;
-  width: 100%;
   height: auto;
-  object-fit: contain;
 }
 
 .card_content {
@@ -232,7 +229,7 @@ img {
   position: relative;
 }
 
-.shop_section .sec-title {
+.shop_section .sec-heading {
   text-align: center;
   margin-bottom: -60px;
 }
@@ -411,7 +408,7 @@ img {
   margin-bottom: 14px;
 }
 
-.service_section .sec-title {
+.service_section .sec-heading {
   text-align: center;
   margin-bottom: 49px;
 }
@@ -586,7 +583,7 @@ img {
   margin-bottom: 105px;
 }
 
-.brand_wrapper .sec-title {
+.brand_wrapper .sec-heading {
   text-align: center;
   margin-bottom: 60px;
 }
