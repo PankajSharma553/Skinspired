@@ -143,7 +143,7 @@
 
 /* media query 768*/
 @media (max-width:768px) {
-    .sec-title {
+    .sec-heading {
         font-size: 28px;
     }
 
@@ -277,7 +277,7 @@
         margin-bottom: 60px;
     }
 
-    .brand_wrapper .sec-title {
+    .brand_wrapper .sec-heading {
 
         margin-bottom: 2rem;
     }
@@ -374,7 +374,7 @@
 
 /* media query 480*/
 @media (max-width:480px) {
-    .sec-title {
+    .sec-heading {
         font-size: 20px;
     }
 
@@ -464,7 +464,7 @@
         margin-bottom: 20px;
     }
 
-    .brand_wrapper .sec-title {
+    .brand_wrapper .sec-heading {
         margin-bottom: 20px;
     }
 
