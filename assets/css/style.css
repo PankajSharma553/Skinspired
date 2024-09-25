@@ -1262,6 +1262,7 @@ text-align: end;
   background-color: var(--Fuji-color);
   padding-top: 87px;
   padding-inline: 1rem;
+  padding-bottom: 120px;
 }
 .servicesAll_wrapper h1{
   text-align: center;
@@ -1284,8 +1285,17 @@ text-align: end;
   justify-content:space-between;
   align-items: center;
   gap: 1rem;
-  padding: 40px;
   cursor: pointer;
+  padding: 40px;
+  border-bottom: 1px solid #D9D9D9;
+}
+.servicesAll_question p{
+  color:var(--black-color);
+  font-family:var(--secondary-font);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 125%;
+  text-transform: capitalize;
  
 }
 .servicesAll_left{
@@ -1296,4 +1306,18 @@ text-align: end;
 }
 .servicesAll_right img{
   max-width: 457px;
+}
+.servicesAll_right{
+  max-width: 457px;
+  width: 100%;
+  position: relative;
+}
+.servicesAll_content{
+  position: absolute;
+ bottom: 95px;
+ left:33px;
+ max-width: 348px;
+ width: 100%;
+ border: 1px solid red;
+
 }
