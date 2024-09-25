@@ -160,3 +160,19 @@ var swiper = new Swiper(".brandSwiper", {
     },
   },
 });
+
+
+// about product section
+
+var swiper = new Swiper(".productmySwiper", {
+  slidesPerView: 4,
+  spaceBetween: 90,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
