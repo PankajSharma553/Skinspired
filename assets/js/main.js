@@ -161,18 +161,30 @@ var swiper = new Swiper(".brandSwiper", {
   },
 });
 
-
 // about product section
-
 var swiper = new Swiper(".productmySwiper", {
-  slidesPerView: 4,
-  spaceBetween: 90,
+  slidesPerView: 3,
+  spaceBetween: 117,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 0,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 3,
+    
+    },
   },
 });
