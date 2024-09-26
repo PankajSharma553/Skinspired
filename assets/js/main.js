@@ -188,3 +188,35 @@ var swiper = new Swiper(".productmySwiper", {
     },
   },
 });
+
+// bootscamp section 
+
+var swiper = new Swiper(".bootcampSwiper", {
+  slidesPerView: 2,
+  spaceBetween:0,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+
+  // breakpoints: {
+  //   0: {
+  //     slidesPerView: 1,
+  //     spaceBetween: 0,
+  //   },
+  //   768: {
+  //     slidesPerView: 2,
+  //     spaceBetween: 40,
+  //   },
+  //   1024: {
+  //     slidesPerView: 3,
+    
+  //   },
+  // },
+
+
+});
