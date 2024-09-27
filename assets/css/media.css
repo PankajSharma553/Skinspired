@@ -14,7 +14,7 @@
     .header-list {
         flex-direction: column;
         width: 100%;
-        max-width: 100%;
+        max-width: 450px;
         background: var(--white-color);
         position: fixed;
         justify-content: start;
@@ -22,7 +22,8 @@
         left: -100%;
         padding: 50px 32px 20px 0;
         align-items: center;
-        height: 100vh;
+        /* height: 100vh; */
+        bottom: 0;
         background-color: var(--primary-color);
         transition: all 0.5s ease-out;
         z-index: 9999;
@@ -68,7 +69,7 @@
 }
 
 /* media query 998*/
-@media (max-width:998px) {
+@media (max-width:991px) {
     .card_content h3 {
         font-size: 28px;
         margin-bottom: 2rem;
@@ -541,4 +542,4 @@
     .footer {
         padding-block: 50px 40px;
     }
-}   
+}
