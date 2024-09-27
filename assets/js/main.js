@@ -211,20 +211,20 @@ var swiper = new Swiper(".bootcampSwiper", {
     clickable: true,
   },
 
-  // breakpoints: {
-  //   0: {
-  //     slidesPerView: 1,
-  //     spaceBetween: 0,
-  //   },
-  //   768: {
-  //     slidesPerView: 2,
-  //     spaceBetween: 40,
-  //   },
-  //   1024: {
-  //     slidesPerView: 3,
-
-  //   },
-  // },
+  breakpoints: {
+    0: {
+      slidesPerView: 2,
+      spaceBetween: 16,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 24,
+    },
+    1024: {
+      slidesPerView: 2,
+      spaceBetween: 0,
+    },
+  },
 
 
 });
