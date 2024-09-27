@@ -1712,3 +1712,6 @@ select#product {
   font-size: 14px;
   font-weight: 400;
 }
+.form_radioSection{
+  margin-bottom: 40px;
+}
