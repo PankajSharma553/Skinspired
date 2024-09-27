@@ -1250,7 +1250,10 @@ a {
   margin-bottom: 87px;
   gap: 1rem;
 }
-
+.services_facilitiesLeft{
+  max-width: 524px;
+  width: 100%;
+}
 .services_facilitiesLeft img {
   max-width: 524px;
 }
@@ -1413,6 +1416,10 @@ a {
   font-weight: 400;
   line-height: 125%;
   text-transform: capitalize;
+}
+.faqs_plus img{
+  width: 18px;
+  height: 18px;
 }
 
 /* bootcamp section */
