@@ -1690,6 +1690,7 @@ select#product {
   border-bottom: 1px solid #D9D9D9;
   background-color: transparent;
   resize: none;
+  padding-bottom: 11px;
 }
 
 .form_radioSection p {
@@ -1715,3 +1716,6 @@ select#product {
 .form_radioSection{
   margin-bottom: 40px;
 }
+
+
+/* ====== */
