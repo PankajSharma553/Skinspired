@@ -966,19 +966,18 @@ img {
 
 .about_productSec .swiper-wrapper {
   max-width: 1150px;
-}
-
-.about_productSec .swiper-slide {
-  max-width: 310px;
-  width: 100%;
-  text-align: center;
-  cursor: pointer;
+ width: 100%;
 }
 
 .about_productSec .swiper-button-next,
 .about_productSec .swiper-button-prev {
   top: 38%;
   padding-inline: 1rem;
+}
+.about_productSec .swiper-button-next::after  ,
+.about_productSec .swiper-button-prev::after {
+ font-size: 40px;
+ color: var(--black-color);
 }
 
 .about_productImg img {
@@ -987,7 +986,11 @@ img {
   background-color: #F3EFEC;
   margin-bottom: 30px;
 }
-
+.about_product{
+  max-width: 310px;
+  text-align: center;
+  width: 100%;
+}
 .about_product h3 {
   color: #1B1B1B;
   font-family: var(--Tanaegean-font);
@@ -1026,7 +1029,10 @@ img {
   max-width: 1146px;
   text-align: center;
 }
-
+.info_serviceLeft{
+  max-width:818px ;
+  width: 100%;
+}
 .info_serviceLeft p {
   margin-bottom: 35px;
 }
@@ -1048,6 +1054,10 @@ a {
 .cs_lewis .info_serviceSec {
   max-width: 1258px;
   gap: 165px;
+}
+.cs_lewis .info_serviceLeft {
+  max-width: 620px;
+  width: 100%;
 }
 
 .cs_lewis img {

@@ -164,7 +164,7 @@ var swiper = new Swiper(".brandSwiper", {
 // about product section
 var swiper = new Swiper(".productmySwiper", {
   slidesPerView: 3,
-  spaceBetween: 117,
+  spaceBetween: 100,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -176,15 +176,23 @@ var swiper = new Swiper(".productmySwiper", {
   breakpoints: {
     0: {
       slidesPerView: 1,
-      spaceBetween: 0,
+      spaceBetween: 100,
+    },
+    480:{
+      slidesPerView: 2,
+      spaceBetween: 50,
     },
     768: {
       slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    991: {
+      slidesPerView: 3,
       spaceBetween: 40,
     },
     1024: {
       slidesPerView: 3,
-
+     spaceBetween: 0
     },
   },
 });
