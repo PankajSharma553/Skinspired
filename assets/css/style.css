@@ -14,6 +14,8 @@
   --palladium-color: #b1b1b1;
   --black-color: #000;
   --white-color: #ffffff;
+  --border-color: #D9D9D9;
+  --light-gray: #F2EDE9;
   /* font family */
   --primary-font: "Balgin";
   --secondary-font: "Montserrat";
@@ -31,12 +33,14 @@ p,
 a {
   font-size: 1rem;
 }
-p{
+
+p {
   color: var(--black-color);
   font-weight: 400;
   text-transform: capitalize;
 }
-h1{
+
+h1 {
   text-transform: capitalize;
   font-size: 61px;
   color: var(--black-color);
@@ -44,12 +48,15 @@ h1{
   font-weight: 400;
   line-height: 120%;
 }
-h4{
+h2{
+  font-weight: 400;
+}
+h3 {
+  font-weight: 400;
+}
+h4 {
   font-weight: 400;
   text-transform: capitalize;
-}
-h3{
-  font-weight: 400;
 }
 
 ul {
@@ -135,7 +142,6 @@ img {
   color: var(--white-color);
   font-family: var(--Tanaegean-font);
   font-size: 46.58px;
-  font-weight: 400;
   line-height: 155.923%;
 }
 
@@ -407,7 +413,6 @@ img {
   display: block;
   object-fit: contain;
   cursor: pointer;
-
 }
 
 .fawless_btm {
@@ -621,7 +626,7 @@ img {
 
 .btn_book {
   background-color: transparent;
-  border: 1px solid #000000;
+  border: 1px solid var(--black-color);
   padding: 15px 53px;
 }
 
@@ -951,7 +956,7 @@ img {
 
 .about_productSec .swiper-wrapper {
   max-width: 1150px;
- width: 100%;
+  width: 100%;
 }
 
 .about_productSec .swiper-button-next,
@@ -959,10 +964,11 @@ img {
   top: 38%;
   padding-inline: 1rem;
 }
-.about_productSec .swiper-button-next::after  ,
+
+.about_productSec .swiper-button-next::after,
 .about_productSec .swiper-button-prev::after {
- font-size: 40px;
- color: var(--black-color);
+  font-size: 40px;
+  color: var(--black-color);
 }
 
 .about_productImg img {
@@ -971,11 +977,13 @@ img {
   background-color: #F3EFEC;
   margin-bottom: 30px;
 }
-.about_product{
+
+.about_product {
   max-width: 310px;
   text-align: center;
   width: 100%;
 }
+
 .about_product h3 {
   color: #1B1B1B;
   font-family: var(--Tanaegean-font);
@@ -1013,10 +1021,12 @@ img {
   max-width: 1146px;
   text-align: center;
 }
-.info_serviceLeft{
-  max-width:818px ;
+
+.info_serviceLeft {
+  max-width: 818px;
   width: 100%;
 }
+
 .info_serviceLeft p {
   margin-bottom: 35px;
 }
@@ -1038,6 +1048,7 @@ a {
   max-width: 1258px;
   gap: 165px;
 }
+
 .cs_lewis .info_serviceLeft {
   max-width: 620px;
   width: 100%;
@@ -1221,10 +1232,12 @@ a {
   margin-bottom: 87px;
   gap: 1rem;
 }
-.services_facilitiesLeft{
+
+.services_facilitiesLeft {
   max-width: 524px;
   width: 100%;
 }
+
 .services_facilitiesLeft img {
   max-width: 524px;
 }
@@ -1291,7 +1304,7 @@ a {
   gap: 1rem;
   cursor: pointer;
   padding: 40px;
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .servicesAll_question p {
@@ -1352,7 +1365,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid var(--border-color);
   padding: 52px 14px 29px 14px;
   cursor: pointer;
   margin-bottom: 17px;
@@ -1365,7 +1378,8 @@ a {
   line-height: 125%;
   text-transform: capitalize;
 }
-.faqs_plus img{
+
+.faqs_plus img {
   width: 18px;
   height: 18px;
 }
@@ -1522,7 +1536,7 @@ select#product {
 }
 
 .productShop-rightImg img {
-  background-color: #F2EDE9;
+  background-color: var(--light-gray);
   border-radius: 20px;
   margin-bottom: 31px;
   max-width: 427px;
@@ -1567,7 +1581,7 @@ select#product {
   height: 47px;
   border-radius: 50%;
   padding: 11px 17.5px 12px 17.9px;
-  border: 1px solid #D9D9D9;
+  border: 1px solid var(--border-color);
   color: var(--primary-color);
   background-color: var(--white-color);
   text-align: center;
@@ -1642,7 +1656,7 @@ select#product {
 .form_label textarea {
   border: none;
   outline: none;
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid var(--border-color);
   background-color: transparent;
   resize: none;
   padding-bottom: 11px;
@@ -1657,20 +1671,20 @@ select#product {
   align-items: center;
   gap: 51px;
 }
-.form_radioBtn{
+
+.form_radioBtn {
   display: flex;
   align-items: center;
   gap: 9px;
 }
-.form_radioBtn label{
-  color:var(--black-color);
-  font-family:var(--secondary-font);
+
+.form_radioBtn label {
+  color: var(--black-color);
+  font-family: var(--secondary-font);
   font-size: 14px;
   font-weight: 400;
 }
-.form_radioSection{
+
+.form_radioSection {
   margin-bottom: 40px;
 }
-
-
-/* ====== */
