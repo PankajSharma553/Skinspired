@@ -163,7 +163,6 @@
         gap: 1rem;
     }
 
-    /* ============ */
     .info_right h4 {
         font-size: 18px;
     }
@@ -364,7 +363,6 @@
 
     .product {
         padding-block: 60px 40px;
-
     }
 
     .product_inner {
@@ -437,7 +435,6 @@
     }
 
     .brand_wrapper .sec-heading {
-
         margin-bottom: 2rem;
     }
 
@@ -461,7 +458,6 @@
     }
 
     .testimonial_right {
-
         border-top: 1px solid #000000;
         border-left: 0;
         width: 100%;
@@ -541,7 +537,6 @@
         padding-block: 60px 50px;
     }
 
-    /*  */
     .info {
         margin-bottom: 50px;
     }
@@ -696,7 +691,6 @@
         margin-bottom: 6px;
     }
 
-
 }
 
 /* media query 480*/
@@ -763,7 +757,6 @@
 
     .product {
         padding-block: 2rem;
-
     }
 
     .product_inner {
@@ -885,7 +878,6 @@
         padding-block: 50px 40px;
     }
 
-    /*  */
     .info {
         margin-bottom: 2rem;
     }

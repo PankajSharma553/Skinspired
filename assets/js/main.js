@@ -228,3 +228,8 @@ var swiper = new Swiper(".bootcampSwiper", {
 
 
 });
+
+// fade:true,
+// centerSlide :true,
+// loop:true;
+
