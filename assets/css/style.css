@@ -14,6 +14,8 @@
   --palladium-color: #b1b1b1;
   --black-color: #000;
   --white-color: #ffffff;
+  --border-color: #D9D9D9;
+  --light-gray: #F2EDE9;
   /* font family */
   --primary-font: "Balgin";
   --secondary-font: "Montserrat";
@@ -30,6 +32,28 @@
 p,
 a {
   font-size: 1rem;
+}
+
+p {
+  color: var(--black-color);
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-size: 61px;
+  color: var(--black-color);
+  font-family: Cormorant;
+  font-weight: 400;
+  line-height: 120%;
+}
+h2,h3{
+  font-weight: 400;
+}
+h4 {
+  font-weight: 400;
+  text-transform: capitalize;
 }
 
 ul {
@@ -80,7 +104,6 @@ img {
   text-transform: capitalize;
 }
 
-
 .banner_section {
   position: relative;
 }
@@ -108,7 +131,6 @@ img {
   color: var(--white-color);
   font-family: var(--Tanaegean-font);
   font-size: 24px;
-  font-weight: 400;
   line-height: 235.833%;
   margin-bottom: 11px;
 }
@@ -117,7 +139,6 @@ img {
   color: var(--white-color);
   font-family: var(--Tanaegean-font);
   font-size: 46.58px;
-  font-weight: 400;
   line-height: 155.923%;
 }
 
@@ -131,7 +152,6 @@ img {
 }
 
 .header_top p {
-  color: var(--black-color);
   font-family: var(--primary-font);
   font-size: 14px;
   font-weight: 200;
@@ -223,7 +243,6 @@ img {
 
 .card_content h3 {
   font-size: 36.3px;
-  font-weight: 400;
   line-height: 155%;
   margin-bottom: 44px;
   color: var(--white-color);
@@ -320,14 +339,11 @@ img {
 .shop_card p {
   font-size: 25px;
   font-family: var(--Tanaegean-font);
-  font-weight: 400;
   line-height: 148%;
-  color: var(--black-color);
   max-width: 320px;
   width: 100%;
   margin-inline: auto;
   text-align: center;
-  text-transform: capitalize;
 }
 
 /* fawless section */
@@ -351,7 +367,6 @@ img {
 
 .fawless_left h4 {
   font-size: 12px;
-  font-weight: 400;
   margin-bottom: 18px;
   color: var(--black-color);
   font-family: var(--secondary-font);
@@ -361,7 +376,6 @@ img {
 
 .fawless_left p {
   margin-bottom: 18px;
-  color: var(--black-color);
   font-family: var(--primary-font);
   font-weight: 200;
   line-height: 180%;
@@ -396,7 +410,6 @@ img {
   display: block;
   object-fit: contain;
   cursor: pointer;
-
 }
 
 .fawless_btm {
@@ -413,9 +426,7 @@ img {
 
 .fawless_content p {
   font-size: 2rem;
-  font-weight: 400;
   margin-bottom: 15px;
-  color: var(--black-color);
   font-family: var(--Tanaegean-font);
   line-height: 187%;
   padding-inline: 1rem;
@@ -444,9 +455,7 @@ img {
   color: var(--black-color);
   font-family: var(--secondary-font);
   font-size: 12px;
-  font-weight: 400;
   letter-spacing: 2.4px;
-  text-transform: uppercase;
   text-align: center;
   margin-bottom: 14px;
 }
@@ -474,12 +483,10 @@ img {
 }
 
 .service_card p {
-  color: var(--black-color);
   font-family: var(--primary-font);
   font-size: 24px;
   font-weight: 200;
   line-height: 130%;
-  text-transform: capitalize;
   text-align: center;
 }
 
@@ -565,7 +572,6 @@ img {
   font-weight: 600;
   font-family: var(--secondary-font);
   line-height: 228%;
-  text-transform: capitalize;
 }
 
 .product_card:hover p {
@@ -617,7 +623,7 @@ img {
 
 .btn_book {
   background-color: transparent;
-  border: 1px solid #000000;
+  border: 1px solid var(--black-color);
   padding: 15px 53px;
 }
 
@@ -710,10 +716,7 @@ img {
 }
 
 .testimonial_info p {
-  color: var(--black-color);
   font-family: var(--secondary-font);
-  font-size: 1rem;
-  font-weight: 400;
   line-height: 180%;
 }
 
@@ -732,16 +735,12 @@ img {
   color: var(--black-color);
   font-family: var(--Tanaegean-font);
   font-size: 19.4px;
-  font-weight: 400;
   line-height: 119.897%;
   margin-bottom: 4.85px;
 }
 
 .testimonial_authoInfo p {
-  color: var(--black-color);
   font-family: Lato;
-  font-size: 1rem;
-  font-weight: 400;
   line-height: 180%;
 }
 
@@ -805,22 +804,18 @@ img {
   margin-bottom: 17px;
   font-size: 14px;
   color: var(--white-color);
-  font-weight: 400;
   font-family: var(--secondary-font);
   line-height: 180%;
   letter-spacing: 2.4px;
-  text-transform: uppercase;
 }
 
 .footer_right h4 {
   color: var(--white-color);
   font-size: 14px;
-  font-weight: 400;
   margin-bottom: 21px;
   font-family: var(--secondary-font);
   line-height: 130%;
   letter-spacing: 2.4px;
-  text-transform: uppercase;
 }
 
 .footer_socialwrap {
@@ -860,7 +855,6 @@ img {
   text-align: center;
   font-family: var(--secondary-font);
   font-size: 14px;
-  font-weight: 400;
   color: var(--white-color);
   line-height: 225%;
 }
@@ -892,7 +886,6 @@ img {
 
 .info_right p {
   margin-bottom: 17px;
-  color: var(--black-color);
   font-family: var(--primary-color);
   font-weight: 200;
   line-height: 180%;
@@ -902,10 +895,7 @@ img {
   color: var(--black-color);
   font-family: var(--secondary-font);
   font-size: 20px;
-  font-weight: 400;
   line-height: 160%;
-  text-transform: capitalize;
-  ;
 }
 
 .info_right h4:nth-of-type(1) {
@@ -933,11 +923,8 @@ img {
 }
 
 .info_innerLeft p {
-  color: var(--black-color);
   font-family: var(--Tanaegean-font);
-  font-weight: 400;
   line-height: 218.75%;
-  text-transform: capitalize;
   text-align: center;
 }
 
@@ -966,7 +953,7 @@ img {
 
 .about_productSec .swiper-wrapper {
   max-width: 1150px;
- width: 100%;
+  width: 100%;
 }
 
 .about_productSec .swiper-button-next,
@@ -974,10 +961,11 @@ img {
   top: 38%;
   padding-inline: 1rem;
 }
-.about_productSec .swiper-button-next::after  ,
+
+.about_productSec .swiper-button-next::after,
 .about_productSec .swiper-button-prev::after {
- font-size: 40px;
- color: var(--black-color);
+  font-size: 40px;
+  color: var(--black-color);
 }
 
 .about_productImg img {
@@ -986,16 +974,17 @@ img {
   background-color: #F3EFEC;
   margin-bottom: 30px;
 }
-.about_product{
+
+.about_product {
   max-width: 310px;
   text-align: center;
   width: 100%;
 }
+
 .about_product h3 {
   color: #1B1B1B;
   font-family: var(--Tanaegean-font);
   font-size: 20px;
-  font-weight: 400;
   line-height: 150%;
   text-transform: capitalize;
   margin-bottom: 23px;
@@ -1029,10 +1018,12 @@ img {
   max-width: 1146px;
   text-align: center;
 }
-.info_serviceLeft{
-  max-width:818px ;
+
+.info_serviceLeft {
+  max-width: 818px;
   width: 100%;
 }
+
 .info_serviceLeft p {
   margin-bottom: 35px;
 }
@@ -1041,7 +1032,6 @@ img {
 a {
   color: var(--black-color);
   font-family: var(--Tanaegean-font);
-  font-weight: 400;
   line-height: 218.75%;
   text-transform: capitalize;
 }
@@ -1055,6 +1045,7 @@ a {
   max-width: 1258px;
   gap: 165px;
 }
+
 .cs_lewis .info_serviceLeft {
   max-width: 620px;
   width: 100%;
@@ -1096,7 +1087,6 @@ a {
   font-size: 20px;
   font-weight: 200;
   line-height: 175%;
-  text-transform: capitalize;
   margin-bottom: 22px;
 }
 
@@ -1131,7 +1121,6 @@ a {
   color: var(--black-color);
   font-family: var(--Tanaegean-font);
   font-size: 20px;
-  font-weight: 400;
   line-height: 215%;
 }
 
@@ -1177,10 +1166,7 @@ a {
 .services_aboutRight h1 {
   color: var(--white-color);
   font-family: var(--secondary-font);
-  font-size: 61px;
   font-weight: 100;
-  line-height: 120%;
-  text-transform: capitalize;
   margin-bottom: 39px;
 }
 
@@ -1207,7 +1193,6 @@ a {
 .services_aboutDetail p {
   color: var(--white-color);
   font-family: var(--secondary-font);
-  font-weight: 400;
   line-height: 180%;
 }
 
@@ -1229,12 +1214,6 @@ a {
 }
 
 .services_facilitie h1 {
-  color: var(--black-color);
-  font-family: Cormorant;
-  font-size: 61px;
-  font-weight: 400;
-  line-height: 120%;
-  text-transform: capitalize;
   text-align: center;
   margin-bottom: 70px;
 }
@@ -1250,10 +1229,12 @@ a {
   margin-bottom: 87px;
   gap: 1rem;
 }
-.services_facilitiesLeft{
+
+.services_facilitiesLeft {
   max-width: 524px;
   width: 100%;
 }
+
 .services_facilitiesLeft img {
   max-width: 524px;
 }
@@ -1266,18 +1247,13 @@ a {
   color: var(--black-color);
   font-family: var(--Tanaegean-font);
   font-size: 24px;
-  font-weight: 400;
   line-height: 305%;
-  text-transform: capitalize;
 }
 
 .services_facilitiesRight p {
-  color: var(--black-color);
   font-family: var(--secondary-font);
   font-size: 20px;
-  font-weight: 400;
   line-height: 180%;
-  text-transform: capitalize;
   margin-bottom: 18px;
 }
 
@@ -1308,12 +1284,6 @@ a {
 
 .servicesAll_wrapper h1 {
   text-align: center;
-  color: var(--black-color);
-  font-family: Cormorant;
-  font-size: 61px;
-  font-weight: 400;
-  line-height: 120%;
-  text-transform: capitalize;
   margin-bottom: 55px;
 }
 
@@ -1331,17 +1301,13 @@ a {
   gap: 1rem;
   cursor: pointer;
   padding: 40px;
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .servicesAll_question p {
-  color: var(--black-color);
   font-family: var(--secondary-font);
   font-size: 32px;
-  font-weight: 400;
   line-height: 125%;
-  text-transform: capitalize;
-
 }
 
 .servicesAll_left {
@@ -1372,7 +1338,6 @@ a {
 .servicesAll_content p {
   color: var(--white-color);
   font-family: var(--secondary-font);
-  font-weight: 400;
   line-height: 180%;
   margin-bottom: 18px;
 }
@@ -1389,12 +1354,6 @@ a {
 }
 
 .faqs_wrapper h1 {
-  color: var(--black-color);
-  font-family: Cormorant;
-  font-size: 61px;
-  font-weight: 400;
-  line-height: 120%;
-  text-transform: capitalize;
   margin-bottom: 41px;
   text-align: center;
 }
@@ -1403,7 +1362,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid var(--border-color);
   padding: 52px 14px 29px 14px;
   cursor: pointer;
   margin-bottom: 17px;
@@ -1413,11 +1372,11 @@ a {
   color: var(--black-color);
   font-family: var(--secondary-font);
   font-size: 32px;
-  font-weight: 400;
   line-height: 125%;
   text-transform: capitalize;
 }
-.faqs_plus img{
+
+.faqs_plus img {
   width: 18px;
   height: 18px;
 }
@@ -1430,12 +1389,6 @@ a {
 }
 
 .bootcamp_wrapper h1 {
-  color: var(--black-color);
-  font-family: Cormorant;
-  font-size: 61px;
-  font-weight: 400;
-  line-height: 120%;
-  text-transform: capitalize;
   margin-bottom: 64px;
   text-align: center;
 }
@@ -1555,10 +1508,8 @@ a {
 }
 
 .productShop-rightTop p {
-  color: var(--black-color);
   font-family: var(--secondary-font);
   font-size: 14px;
-  font-weight: 400;
 }
 
 select#product {
@@ -1582,7 +1533,7 @@ select#product {
 }
 
 .productShop-rightImg img {
-  background-color: #F2EDE9;
+  background-color: var(--light-gray);
   border-radius: 20px;
   margin-bottom: 31px;
   max-width: 427px;
@@ -1592,9 +1543,7 @@ select#product {
   color: var(--black-color);
   font-family: var(--Tanaegean-font);
   font-size: 20px;
-  font-weight: 400;
   line-height: 160%;
-  text-transform: capitalize;
   margin-bottom: 1rem;
 }
 
@@ -1629,7 +1578,7 @@ select#product {
   height: 47px;
   border-radius: 50%;
   padding: 11px 17.5px 12px 17.9px;
-  border: 1px solid #D9D9D9;
+  border: 1px solid var(--border-color);
   color: var(--primary-color);
   background-color: var(--white-color);
   text-align: center;
@@ -1693,7 +1642,7 @@ select#product {
   margin-bottom: 40px;
 }
 
-.form_heading {
+.form_heading, .form_desc {
   color: var(--black-color);
   font-family: var(--secondary-font);
   font-size: 20px;
@@ -1704,7 +1653,7 @@ select#product {
 .form_label textarea {
   border: none;
   outline: none;
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid var(--border-color);
   background-color: transparent;
   resize: none;
   padding-bottom: 11px;
@@ -1719,20 +1668,23 @@ select#product {
   align-items: center;
   gap: 51px;
 }
-.form_radioBtn{
+
+.form_radioBtn {
   display: flex;
   align-items: center;
   gap: 9px;
 }
-.form_radioBtn label{
-  color:var(--black-color);
-  font-family:var(--secondary-font);
+
+.form_radioBtn label {
+  color: var(--black-color);
+  font-family: var(--secondary-font);
   font-size: 14px;
   font-weight: 400;
 }
-.form_radioSection{
+
+.form_radioSection {
   margin-bottom: 40px;
 }
-
-
-/* ====== */
+.form_desc{
+margin-bottom: 28px;
+}
