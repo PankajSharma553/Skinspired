@@ -394,16 +394,17 @@
         gap: 20px;
         padding: 0;
     }
-
+    .booking_left {
+        max-width: 100%;
+    }
     .booking_right {
         max-width: 100%;
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         text-align: center;
-        padding-inline: 1rem;
+        padding-bottom: 1rem;
+    }
+    .booking_content{
+        max-width: 100%;
     }
 
     .service_section .swiper-slide {

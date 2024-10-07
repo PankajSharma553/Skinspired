@@ -10,7 +10,6 @@ close.addEventListener("click", function () {
 });
 
 // swiper slider  scripting section
-
 // hero section
 var swiper = new Swiper(".heroSwiper", {
   slidesPerView: 1,

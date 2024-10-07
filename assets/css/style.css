@@ -556,6 +556,7 @@ img {
 }
 
 .product_card {
+  width: 100%;
   cursor: pointer;
   position: relative;
 }
@@ -590,27 +591,39 @@ img {
 /* booking section */
 .booking {
   margin-bottom: 91px;
-
-}
-
-.booking_wrapper {
-  display: flex;
-  align-items: center;
-  gap: 100px;
-  padding-left: 0;
   background-color: var(--Fuji-color);
 }
-
+.booking_wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.booking_img{
+  height: 100%;
+  width: 100%;
+}
 .booking_img img {
-  max-width: 654px;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
 }
 
 .booking_right {
-  max-width: 589px;
+  max-width: 44%;
   width: 100%;
-  padding-block: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.booking_left{
+  max-width: 48%;
+  width: 100%;
+}
+.booking_content{
+  max-width: 598px;
+  width: 100%;
+}
 .booking_desc {
   color: var(--black-color);
   font-family: var(--secondary-font);
